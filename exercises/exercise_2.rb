@@ -8,10 +8,10 @@ puts "----------"
 @store1 = Store.find(1)
 @store2 = Store.find(2)
 
-@store1.name = "Rhaissa's"
-@store1.save
+# @store1.name = "Rhaissa's"
+# @store1.save
 
-pp Store.find(1)
+# pp Store.find(1)
 
 @store1.update(name: "Bruno's Store")
 
